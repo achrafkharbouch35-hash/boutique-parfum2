@@ -1,5 +1,5 @@
 /* =====================================================
-   ÉLYSÉE PARFUMS
+   CHIHAJA PARFUMS
    V3 ULTRA ANIMÉE
 ===================================================== */
 
@@ -19,7 +19,7 @@ const products = [
 
     {
         id: 1,
-        name: "Élysée N°01",
+        name: "CHIHAJA N°01",
         category: "Femme",
         price: 249,
         notes: "Rose · Jasmin · Vanille",
@@ -32,7 +32,7 @@ const products = [
 
     {
         id: 2,
-        name: "Élysée N°07",
+        name: "CHIHAJA N°07",
         category: "Homme",
         price: 279,
         notes: "Bergamote · Cèdre · Ambre",
@@ -45,7 +45,7 @@ const products = [
 
     {
         id: 3,
-        name: "Élysée Oud",
+        name: "CHIHAJA Oud",
         category: "Unisexe",
         price: 329,
         notes: "Oud · Santal · Musc",
@@ -58,7 +58,7 @@ const products = [
 
     {
         id: 4,
-        name: "Élysée Rose",
+        name: "CHIHAJA Rose",
         category: "Femme",
         price: 229,
         notes: "Rose · Pivoine · Musc blanc",
@@ -70,7 +70,7 @@ const products = [
 
     {
         id: 5,
-        name: "Élysée Noir",
+        name: "CHIHAJA Noir",
         category: "Homme",
         price: 299,
         notes: "Poivre · Cuir · Bois de Gaïac",
@@ -83,7 +83,7 @@ const products = [
 
     {
         id: 6,
-        name: "Élysée Vanille",
+        name: "CHIHAJA Vanille",
         category: "Unisexe",
         price: 259,
         notes: "Vanille · Ambre · Tonka",
@@ -95,7 +95,7 @@ const products = [
 
     {
         id: 7,
-        name: "Élysée Bloom",
+        name: "CHIHAJA Bloom",
         category: "Femme",
         price: 239,
         notes: "Fleur d'oranger · Poire · Jasmin",
@@ -107,7 +107,7 @@ const products = [
 
     {
         id: 8,
-        name: "Élysée Intense",
+        name: "CHIHAJA Intense",
         category: "Homme",
         price: 289,
         notes: "Ambre · Tabac · Vanille",
@@ -1534,7 +1534,7 @@ function buildWhatsappMessage() {
 
 
     let message =
-        "Bonjour Élysée Parfums 👋\n\n";
+        "Bonjour CHIHAJA Parfums 👋\n\n";
 
     message +=
         "Je souhaite commander :\n\n";
@@ -1609,7 +1609,7 @@ document
 
             const url =
                 `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-                    "Bonjour Élysée Parfums 👋 J'aimerais avoir plus d'informations sur vos parfums."
+                    "Bonjour CHIHAJA Parfums 👋 J'aimerais avoir plus d'informations sur vos parfums."
                 )}`;
 
             window.open(
